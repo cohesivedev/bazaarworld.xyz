@@ -1,14 +1,143 @@
-<html>
+<html class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <title>BazaarWorld - Rare Item Product Scanner</title>
-    <link rel="stylesheet" href="ui.css"/>
-    <link rel="icon" href="bazaar.svg"/>
+    <link rel="stylesheet" href="ui.css" />
+    <link rel="icon" href="bazaar.svg" />
 </head>
-<body data-theme="bumblebee">
-    
 
+<body data-theme="bumblebee">
+    <div class="w-full top-0 left-0 flex bg-primary">
+        <div class="flex-none text-primary h-16"><img src="bazaar.svg" class="h-16"></div>
+        <div class="flex-1 text-primary-content w-full self-center text-2xl font-bold">BazaarWorld</div>
+    </div>
+
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+
+            <iframe class="w-full lg:mr-8" height="400"
+                src="https://www.youtube.com/embed/q2c3SeWnuHI?controls=0&modestbranding=1&showinfo=0&autohide=1"
+                frameborder="0" allowfullscreen></iframe>
+
+
+            <div>
+                <h1 class="text-5xl font-bold">
+                    A new scanning tool for finding rare &amp; esoteric items
+                </h1>
+                <p class="py-6 px-3 prose">
+                    BazaarWorld can search multiple marketplaces and regions in one go!<br>
+                    Discover new listings for obscure and hard-to-find items quickly and easily from around the
+                    world. Sourced from sites like eBay, Mercari, Vinted and more...
+                </p>
+
+
+                <a href="#how-does-it-work" class="btn btn-primary">How does it work?</a>
+            </div>
+        </div>
+    </div>
+
+    <a id="how-does-it-work"></a>
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+            <ul class="steps steps-vertical">
+                <li class="step step-success">Create a search funnel</li>
+                <li class="step step-success" style="text-align: left;">Add a search: a keyword + a site + a region
+                </li>
+                <li class="step step-success">Run the scan</li>
+                <li class="step step-success">Favorite / Reject the incoming items</li>
+                <li class="step step-success">Bid / Buy items in your favorites pile</li>
+            </ul>
+
+            <div class="lg:ml-8 stats stats-vertical shadow">
+
+                <div class="stat">
+                    <div class="stat-figure text-primary-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 lg:mr-6 ">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                          </svg>                                                    
+                    </div>
+                    <div class="stat-title">Receive items in</div>
+                    <div class="stat-value text-primary mb-2">Aggregate</div>
+                    <div class="stat-desc">Search multiple keywords at once to catch misrepresented items</div>
+                </div>
+
+                <div class="stat">
+                    <div class="stat-figure text-primary-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 lg:mr-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                          </svg>                                                                   
+                    </div>
+                    <div class="stat-title">See item prices, locations and listings</div>
+                    <div class="stat-value text-primary mb-2">Track</div>
+                    <div class="stat-desc">them over time</div>
+                </div>
+
+                <div class="stat">
+                    <div class="stat-figure text-primary-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 lg:mr-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                          </svg>
+                    </div>
+                    <div class="stat-title">Use your favorites list to</div>
+                    <div class="stat-value text-primary mb-2">Snipe</div>
+                    <div class="stat-desc">unique finds</div>
+                </div>
+            </div>
+
+
+            <a href="#more-1" class="lg:ml-8 mt-4 btn btn-primary">Which sites and regions are supported?</a>
+        </div>
+    </div>
+
+
+    <a id="more-1"></a>
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row">
+            <table class="table w-full">
+                <tr>
+                    <th>Sites</th>
+                    <th>Regions</th>
+                </tr>
+                <tr>
+                    <td>eBay</td>
+                    <td>🇺🇸 USA</td>
+                </tr>
+                <tr>
+                    <td>Mercari</td>
+                    <td>🇨🇦 Canada</td>
+                </tr>
+                <tr>
+                    <td>Vinted</td>
+                    <td>🇬🇧 UK</td>
+                </tr>
+                <tr>
+                    <td>ShopGoodwill</td>
+                    <td>🇫🇷 France</td>
+                </tr>
+                <tr>
+                    <td>Wallapop</td>
+                    <td>🇦🇺 Australia</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>🇩🇪 Germany</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>🇪🇸 Spain</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>🇮🇹 Italy</td>
+                </tr>
+            </table>
+
+            <a href="https://forms.gle/RXEkLYfdEAUQ6Nn3A" target="_blank" class="lg:ml-8 btn btn-primary">Sign up for the beta</a>
+
+        </div>
+    </div>
 
 </body>
+
 </html>
